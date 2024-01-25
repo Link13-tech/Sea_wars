@@ -253,9 +253,13 @@ class Game:
 
             if self.ai.board.count == 7:
                 print("*" * 29)
+                print(self.ai.board)
+                print("*" * 29)
                 print("Пользователь выиграл!")
                 break
             elif self.user.board.count == 7:
+                print("*" * 29)
+                print(self.user.board)
                 print("*" * 29)
                 print("Компьютер выиграл!")
                 break
